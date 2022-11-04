@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="icon" type="imagr/png" href="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e712fc6fb5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <img src="http://clipartmag.com/images/facebook-black-and-white-logo-27.png" class="logo">
+           
+            <ul>
+                <li><img src="properties/images/notification.png"></li>
+                <li><img src="properties/images/inbox.png"></li>
+                <li><img src="properties/images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+        <div class="search-box">
+            <img src="properties/images/search.png" alt="">
+            <input type="text" placeholder="search">
+
+        </div>    
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+            <img src="properties/images/profile-pic.png" alt="">
+        </div>
+        </div>
+        <!---------------settings-menu----------------->
+        <div class="settings-container">
+            <div class="setting-container-inner">
+                <div class="user-profile">
+                    <img src="properties/images/profile-pic.png">
+                    <div>
+                        <p>John Abraham</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="properties/images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="properties/images/setting.png " class="settings-icon">
+                    <a href="#">Setting & Privacy <img src="properties/images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="properties/images/help.png " class="settings-icon">
+                    <a href="#">Help & Support <img src="properties/images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="properties/images/display.png " class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="properties/images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="properties/images/logout.png " class="settings-icon">
+                    <a href="#">logout <img src="properties/images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+     <!------------------left-sidebar------------------->
+         <div class="left-sidebar left-sidebar2">
+            <div class="imp-links">
+                <a href="#"><img src="properties/images/news.png">Latest News</a>
+                <a href="#"><img src="properties/images/friends.png">Friends</a>
+                <a href="#"><img src="properties/images/group.png">Group</a>
+                <a href="#"><img src="properties/images/marketplace.png">marcketplace</a>
+                <a href="#"><img src="properties/images/watch.png">watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="properties/images/shortcut-1.png">Web Developers</a>
+                <a href="#"><img src="properties/images/shortcut-2.png">Web Design Course</a>
+                <a href="#"><img src="properties/images/shortcut-3.png">Full Stack Develoment</a>
+                <a href="#"><img src="properties/images/shortcut-4.png">Website Experts</a>
+            </div>
+         </div>
+     <!------------------main content------------------->
+         <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                  <img src="properties/images/upload.png">
+                  <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="properties/images/member-1.png">
+                    <p>Sara John</p>
+                  </div>
+                <div class="story story3">
+                    <img src="properties/images/member-2.png">
+                    <p>Patric Viera</p>
+                </div>
+                <div class="story story4">
+                    <img src="properties/images/member-3.png">
+                    <p>Teena George</p>
+                </div>
+                <div class="story story5">
+                    <img src="properties/images/member-7.png">
+                    <p>David Villa</p>
+                </div>
+                
+           </div>
+
+           <div class="write-post-container">
+            <div class="user-profile">
+                <img src="properties/images/profile-pic.png">
+                <div>
+                    <p>John Abraham</p>
+                    <small>public <i class="fa-solid fa-caret-down"></i></small>
+                </div>
+            </div>
+
+            <div class="post-input-container">
+                <textarea rows="3" placeholder="What's on you mind, John?"></textarea>
+                <div class="add-post-links">
+                    <a href="#"><img src="properties/images/live-video.png">Live Video</a>
+                    <a href="#"><img src="properties/images/photo.png">Photo/Video</a>
+                    <a href="#"><img src="properties/images/feeling.png">Feeling Activity</a>
+                </div>
+            </div>
+           </div>
+
+           <div class="post-container1">
+            <div class="post-row">
+                <div class="user-profile1">
+                    <img src="properties/images/profile-pic.png">
+                    <div class="name-small">
+                        <p>John Abraham</p>
+                        <span>November 2 2022 13:05 pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+            </div>
+           
+            <p class="post-text">Could you guyzz help me to become a <span>Full stack Developer</span>, Plzz send the good sources into my mail <a href="#">#Email</a> <a href="#">#Instagram</a></p>
+           <img src="properties/images/feed-image-1.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="properties/images/like-blue.png">30K</div>
+                    <div><img src="properties/images/comments.png">310</div>
+                    <div><img src="properties/images/share.png">111</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="properties/images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                </div>
+
+
+            </div>
+
+            </div>
+            <div class="post-container1">
+                <div class="post-row">
+                    <div class="user-profile1">
+                        <img src="properties/images/member-3.png">
+                        <div class="name-small">
+                            <p>Teena George</p>
+                            <span>September 29 2022 11:08 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text"><span>Friends</span>, can make u feel good <a href="#">#Email</a> <a href="#">#Instagram</a></p>
+               <img src="properties/images/feed-image-2.png" class="post-img">
+    
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="properties/images/like-blue.png">75K</div>
+                        <div><img src="properties/images/comments.png">120</div>
+                        <div><img src="properties/images/share.png">97</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="properties/images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+    
+    
+                </div>
+    
+                </div>
+                <div class="post-container1">
+                    <div class="post-row">
+                        <div class="user-profile1">
+                            <img src="properties/images/member-7.png">
+                            <div class="name-small">
+                                <p>David Villa</p>
+                                <span>September 25 2022 10:58 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                   
+                    <p class="post-text">Lets Go<span>TAKE A WALK</span> <a href="#">#Email</a> <a href="#">#Instagram</a></p>
+                   <img src="properties/images/feed-image-3.png" class="post-img">
+        
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="properties/images/like-blue.png">43K</div>
+                            <div><img src="properties/images/comments.png">254</div>
+                            <div><img src="properties/images/share.png">137</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="properties/images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+        
+        
+                    </div>
+        
+                    </div>
+                    <div class="post-container1">
+                        <div class="post-row">
+                            <div class="user-profile1">
+                                <img src="properties/images/member-1.png">
+                                <div class="name-small">
+                                    <p>Sara John</p>
+                                    <span>September 24 2022 08:05 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                        </div>
+                       
+                        <p class="post-text"><span>Learning</span> will carry you far ago!!! <a href="#">#Email</a> <a href="#">#Instagram</a></p>
+                       <img src="properties/images/feed-image-4.png" class="post-img">
+            
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="properties/images/like-blue.png">14K</div>
+                                <div><img src="properties/images/comments.png">142</div>
+                                <div><img src="properties/images/share.png">57</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="properties/images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+            
+            
+                        </div>
+            
+                        </div>
+                        <div class="post-container1">
+                            <div class="post-row">
+                                <div class="user-profile1">
+                                    <img src="properties/images/member-6.png">
+                                    <div class="name-small">
+                                        <p>Alexia Puthella</p>
+                                        <span>September 18 2022 09:15 pm</span>
+                                    </div>
+                                </div>
+                                <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                            </div>
+                           
+                            <p class="post-text"><span>Discuss</span>about your passion... <a href="#">#Email</a> <a href="#">#Instagram</a></p>
+                           <img src="properties/images/feed-image-5.png" class="post-img">
+                
+                            <div class="post-row">
+                                <div class="activity-icons">
+                                    <div><img src="properties/images/like-blue.png">37K</div>
+                                    <div><img src="properties/images/comments.png">210</div>
+                                    <div><img src="properties/images/share.png">187</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                    <img src="properties/images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                                </div>
+                
+                
+                            </div>
+                
+                            </div>
+                    <button type="button" class="load-more-btn">Load More</button>
+        </div>
+     <!------------------right-sidebar------------------->
+         <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>MARCH</span>
+                </div>
+                <div class="right-event">
+                    <h4>Meet Up</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Brototype Kochi</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>31</h3>
+                    <span>JULY</span>
+                </div>
+                <div class="right-event">
+                    <h4></i>Tech Event</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>GDG Trivandrum</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisment</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="properties/images/advertisement.png" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="properties/images/member-1.png">
+                </div>
+                <p>Sara John</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="properties/images/member-2.png">
+                </div>
+                <p>Patric Viera</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="properties/images/member-3.png">
+                </div>
+                <p>Teena George</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="properties/images/member-7.png">
+                </div>
+                <p>David Villa</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="properties/images/member-6.png">
+                </div>
+                <p>Alexia Puthella</p>
+            </div>
+         </div>
+         
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2022 - BCE58 BROTOTYPE KOCHI </p>
+    </div>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html> 
